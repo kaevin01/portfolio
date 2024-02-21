@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Inga Garcia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            width="60"
+            height="60"
+            src="img/logo men.png"
+            alt="Imagen logo"
+          />
+          <div class="logotype">Coder Lover</div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Kevin <br />Inga Garcia</h1>
+          <p class="profile-details">
+            Desarrollador web especializado en herramientas de Front-end de
+            camino a desarrollador Full Stack (MEAN)
+          </p>
+          <button class="profile-btn">
+            <a href="/documents/Curriculum Vitae.pdf" style="color: #ffff"
+              >Descargar cv</a
+            >
+          </button>
+        </div>
+        <span class="profile-img-section">
+          <img class="profile-img" src="img/perfil.jpeg" alt="" />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2023</div>
+            <div class="experience-company">Core Networks SL.</div>
+            <div class="experience-position">Desarrollador Front-end</div>
+            <div class="experience-description">
+              <ul>
+                <li>
+                  Reforma de código en la aplicación de mensajería de la
+                  empresa, para ser inmigrada a un framework (Angular)
+                </li>
+                <li>Seguimiento y solución de incidencias</li>
+                <li>Reportes y control de incidencias mediante GitHub</li>
+              </ul>
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2018-2020</div>
+            <div class="experience-company">Modus Create</div>
+            <div class="experience-position">Trainee</div>
+            <div class="experience-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perferendis, earum ducimus? Quas delectus ex similique inventore
+              quam. Dolores quod, maiores magni assumenda minus distinctio odio.
+              A mollitia dolorem, nam, saepe repudiandae ullam eaque voluptatum
+              architecto numquam
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2016-2018</div>
+            <div class="experience-company">Ilunion</div>
+            <div class="experience-position">Trainee</div>
+            <div class="experience-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+              omnis odit eaque aliquam quibusdam! Quas repellat quidem ullam
+              assumenda cumque, nesciunt nam totam quis deserunt, eum nisi,
+              officia accusantium obcaecati
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">MongoDB</li>
+          <li class="skills-skill">Express</li>
+          <li class="skills-skill">Angular.js</li>
+          <li class="skills-skill">Node.js</li>
+          <li class="skills-skill">TypeScript</li>
+          <li class="skills-skill">JavaScript</li>
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">Bootstrap</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">WordPress</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección:</p>
+            <p class="contact-text">28900, Madrid, España</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text">kevinwilsoningagarcia@gmail.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+              Deje su mensaje y con gusto le responderé:
+            </p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list">
+            <li>
+              <a href="https://github.com/kaevin01" class="social-link">
+                <img src="img/social/github.svg" alt="github profile" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/kevin-wilson-inga-garcia/"
+                class="social-link"
+              >
+                <img src="img/social/linkedin.svg" alt="linkedin profile" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>
